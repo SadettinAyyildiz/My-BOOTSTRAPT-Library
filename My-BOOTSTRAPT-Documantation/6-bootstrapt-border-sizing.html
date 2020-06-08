@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrapt Border Sizing</title>
+    <style>
+        .display-inline-block{
+            display: inline-block;
+        }
+    </style>
+  </head>
+  <body class="p-5">
+    <h2>Border Eklemek</h2>
+    <div class="bg-light mt-2 p-4"></div>
+    <div class="bg-light mt-2 p-4 border"></div>
+    <div class="bg-light mt-2 p-4 border-top"></div>
+    <div class="bg-light mt-2 p-4 border-right"></div>
+    <div class="bg-light mt-2 p-4 border-bottom"></div>
+    <div class="bg-light mt-2 p-4 border-left"></div>
+<br>
+    <h2>Tek Köşeden Border Çıkartmak İçin</h2>
+    <div class="bg-light mt-2 p-4 border border-dark border-0"></div>
+    <div class="bg-light mt-2 p-4 border border-dark border-top-0"></div>
+    <div class="bg-light mt-2 p-4 border border-dark border-right-0"></div>
+    <div class="bg-light mt-2 p-4 border border-dark border-bottom-0"></div>
+    <div class="bg-light mt-2 p-4 border border-dark border-left-0"></div>
+<br>
+    <h2>Borderlara Renk Vermek</h2>
+    <div class="bg-light mt-2 p-4"></div>
+    <div class="bg-light mt-2 p-4 border border-primary"></div>
+    <div class="bg-light mt-2 p-4 border-top border-secondary"></div>
+    <div class="bg-light mt-2 p-4 border-right border-warning"></div>
+    <div class="bg-light mt-2 p-4 border-bottom border-dark"></div>
+    <div class="bg-light mt-2 p-4 border-left border-info"></div>
+    <br>
+    <h2>Border Köşelerini Yuvarlamak</h2>
+    <div class="bg-light mt-2 p-4 border border-dark text-warning">yuvarlanmamış</div>
+    <div class="bg-light mt-2 p-4 border border-dark rounded"></div>
+    <div class="bg-light mt-2 p-4 border border-dark rounded-top"></div>
+    <div class="bg-light mt-2 p-4 border border-dark rounded-left"></div>
+    <div class="bg-light mt-2 p-4 border border-dark rounded-right"></div>
+    <div class="bg-light mt-2 p-4 border border-dark rounded-bottom"></div>
+    <br>
+    <h2>Border Sayfanın Belli Alanını Kaplasın / Genişliğini Ayarmalam</h2>
+    <div class="bg-success mt-2 p-2 w-25 text-light">%25</div>
+    <div class="bg-success mt-2 p-2 w-50 text-light">%50</div>
+    <div class="bg-success mt-2 p-2 w-75 text-light">%75</div>
+    <br>
+    <h2>Bordera Yükseklik Vermek</h2>
+    <div style="height: 200px" class="bg-light border border-dark">
+        <div class="bg-primary p-4 display-inline-block h-25"></div>
+        <div class="bg-primary p-4 display-inline-block h-50"></div>
+        <div class="bg-primary p-4 display-inline-block h-75"></div>
+        <div class="bg-primary p-4 display-inline-block h-100"></div>
+    </div>
+    <br>
+    <h2>Gölgelendirme Vermek</h2>
+    <div class="bg-light mt-2 p-5 shadow"></div>
+    <div class="bg-light mt-2 p-5 shadow-sm"></div>
+    <div class="bg-light mt-2 p-5 shadow-lg"></div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

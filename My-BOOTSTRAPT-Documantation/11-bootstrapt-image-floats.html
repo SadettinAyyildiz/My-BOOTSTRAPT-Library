@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrapt Images & Floats</title>
+    <style>
+      .w {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body class="m-5">
+    <h3>Resmin Köşelerini Yuvarlatma / class="rounded"</h3>
+    <img class="mr-2 rounded w" src="bootstrapt-images/img1.jpg" alt="img1" />
+    <br /><br />
+    <h3>Resmin Tamamen Daire İçine Alma / class="rounded-circle"</h3>
+    <img
+      class="mr-2 rounded-circle w"
+      src="bootstrapt-images/img2.jpg"
+      alt="img2"
+    />
+    <br /><br />
+    <h3>Çerçeve Yapma / class="img-thumbnail"</h3>
+    <img
+      class="img-thumbnail mr-2 w"
+      src="bootstrapt-images/img3.jpg"
+      alt="img3"
+    />
+    <br /><br />
+    <h3>Responsive Image / class="img-fluid"</h3>
+    <img src="bootstrapt-images/img1.jpg" alt="img1" class="img-fluid" />
+    <br /><br />
+    <h3>Remi Ortalamak / class="d-block mx-auto"</h3>
+    <p>önce blok elemana çevirip sonra ortalanıyor</p>
+    <img
+      class="w d-block mx-auto"
+      src="bootstrapt-images/img1.jpg"
+      alt="img1"
+    />
+    <br /><br />
+    <h3>Resimlerin Birini Sağa Birini Sola / float-right, float-left</h3>
+    <div class="clearfix">
+      <!--clearfix resimlerin arasını boşaltıyor sonraki yazı aşağa geçiyor-->
+      <img class="w float-left" src="bootstrapt-images/img1.jpg" alt="img1" />
+      <img class="w float-right" src="bootstrapt-images/img2.jpg" alt="img2" />
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ullam
+      debitis maiores rem. Quasi atque vel perferendis a odio, illo ullam eaque
+      corrupti non quidem repudiandae recusandae expedita, corporis eius.
+    </p>
+    <br /><br />
+    <h3>Kutuları Yan Yana Koyma</h3>
+    <div class="clearfix">
+      <div class="bg-primary p-3 w-25 float-left"></div>
+      <div class="bg-warning p-3 w-75 float-right"></div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
